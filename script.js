@@ -72,9 +72,8 @@ game();
 
  let done = winner();
 
- console.log(done)
+ console.log(done);
  
- console.log(computerValue);
 
  
 
