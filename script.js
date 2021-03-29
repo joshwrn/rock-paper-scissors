@@ -63,7 +63,7 @@ function winner() {
         return "you win"
     } else if (playerScore < compScore) {
         return "you lose"
-    } else if (playerScore < compScore) {
+    } else if (playerScore == compScore) {
         return "tie"
     }
 }
