@@ -60,11 +60,11 @@ function computerPlay(max) {
 
 function winner() {
     if (playerScore > compScore) {
-        return "you win"
+        return "YOU WIN"
     } else if (playerScore < compScore) {
-        return "you lose"
+        return "YOU LOSE"
     } else if (playerScore == compScore) {
-        return "tie"
+        return "TIE"
     }
 }
 
