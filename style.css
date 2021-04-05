@@ -1,0 +1,130 @@
+html {
+    font-size: 10px;
+   background: linear-gradient(-225deg, #473B7B 0%, #3584A7 100%);
+    color: white;
+    font-family: Helvetica;
+}
+
+html {
+	background: linear-gradient(-45deg, #473B7B, #3584A7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+  h1, h3 {
+      text-align: center;
+  }
+
+  .heading {
+      transition: text-shadow 0.7s;
+      margin-bottom: 25px;
+  }
+
+  .heading:hover {
+    text-shadow: 0px 7px 10px #000000a6;
+  }
+
+
+  .choose {
+    display: flex;
+    justify-content: center;
+    width:100%;
+    text-align:center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+
+.photos {
+    justify-content: center;
+    margin: 0px 10px 0px 10px;
+    border-radius: 15px;
+    flex-basis: 27%;
+    width: 20%;
+    transition: box-shadow 0.5s;
+}
+
+.photos:hover {
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  }
+
+.lower {
+  position: relative;
+  top: 20%;
+  left: 50%;
+  width: 500px;
+  padding: 40px;
+  transform: translate(-50%, 20%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+  .choice {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+  }
+
+.text-choice {
+    justify-content: center;
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    background-color: #00000000;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px 16px;
+    width: 80%;
+    transition: background-color 1s;
+}
+
+.text-choice:hover,  #result-text:hover, #game-over:hover {
+    background-color: #0000007e;
+}
+
+.results {
+    margin: auto;
+    width: 88%;
+  }
+
+  #result-text {
+    justify-content: center;
+    display: flex;
+    background-color: #00000000;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px 16px;
+    transition: background-color 1s;
+  }
+
+  .game {
+    margin: auto;
+    width: 88%;
+  }
+
+  #game-over {
+    justify-content: center;
+    display: flex;
+    background-color: #00000000;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px 16px;
+    margin: 0px 0px 0px 0px;
+    transition: background-color 1s;
+  }
